@@ -19,7 +19,7 @@
 // - The output element is going to be a Vector of strings.
 //
 // No hints this time!
-
+//
 pub enum Command {
     Uppercase,
     Trim,
@@ -40,7 +40,7 @@ pub mod my_module {
                 Command::Append(n) => {
                     let mut a: String = string.to_string();
                     for i in 00..*n {
-                        a.push_str("bars");
+                        a.push_str("bar");
                     }
                     output.push(a.to_string());
                 }
